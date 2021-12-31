@@ -28,7 +28,7 @@ body{
     position: absolute;
     color: white;
     font-size: xx-large;
-    /* opacity: 1;
+    /* opacity: 0.1;
     z-index: 2; */
 }
 .lcontent h1{
@@ -56,13 +56,27 @@ body{
     /* padding: 50px; */
     margin: 0;
     text-align: center;
-    top: 25%;
+    top: 5%;
     right: 25%;
     position: absolute;
 }
 .rcontent label, p{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
+}
+img{
+    float: left;
+}
+.rcontent h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+    float: right;
+    padding: 20px;
+    margin-top: -6px;
+    /* align-items: center;
+    justify-content: center; */
+    justify-self: center;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 .rcontent h1{
     font-family: 'Times New Roman', Times, serif;

@@ -4,11 +4,25 @@ body{
     /* width: 100%;
     height: 100%; */
     /* background-image: url(../images/signup/canva2.png); */
-    background-color: linear-gradient(rgba(0,0,0,0.5),#202020);
+    background-color: linear-gradient(rgba(8, 8, 8, 0.5),#494242);
+    background-color: black;
+    color: white;
     font-style: normal;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .container{
     z-index: 0;
     opacity: 0.9;
+    text-align: center;
+    font-size: large;
+}
+table{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+th{
+    border: 1px solid white;
+    padding: 15px;
+    font-size: 30px;
 }
